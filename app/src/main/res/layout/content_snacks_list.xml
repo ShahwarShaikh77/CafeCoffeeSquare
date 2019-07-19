@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.shahwar.cafecoffeesquare.SnacksList"
+    tools:showIn="@layout/activity_snacks_list">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scv1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:onClick="onSnacksList1"
+            app:cardCornerRadius="10dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.example.shahwar.cafecoffeesquare.SnacksList"
+            tools:showIn="@layout/activity_coffee_list">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/snack_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/cheesy"
+                    android:scaleType="centerCrop"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/snacktxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Cheesy Garlic Bread with Soppressata "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scv2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:onClick="onSnacksList2"
+            app:cardCornerRadius="10dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.example.shahwar.cafecoffeesquare.SnacksList"
+            tools:showIn="@layout/activity_coffee_list">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/snack_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/shroom"
+                    android:scaleType="centerCrop"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/snacktxt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Shroom burger "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scv3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:onClick="onSnacksList3"
+            app:cardCornerRadius="10dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.example.shahwar.cafecoffeesquare.SnacksList"
+            tools:showIn="@layout/activity_coffee_list">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/snack_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/ramen"
+                    android:scaleType="centerCrop"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/snacktxt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Ramen burger"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scv4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:onClick="onSnacksList4"
+            app:cardCornerRadius="10dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.example.shahwar.cafecoffeesquare.SnacksList"
+            tools:showIn="@layout/activity_coffee_list">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/snack_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/moo"
+                    android:scaleType="centerCrop"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/snacktxt4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Moo burger "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scv5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:onClick="onSnacksList5"
+            app:cardCornerRadius="10dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.example.shahwar.cafecoffeesquare.SnacksList"
+            tools:showIn="@layout/activity_coffee_list">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/snack_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/blackbean"
+                    android:scaleType="centerCrop"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/snacktxt5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Black bean burger "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scv6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:onClick="onSnacksList6"
+            app:cardCornerRadius="10dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.example.shahwar.cafecoffeesquare.SnacksList"
+            tools:showIn="@layout/activity_coffee_list">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/snack_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/angus"
+                    android:scaleType="centerCrop"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/snacktxt6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:text=" Nasty double beef burger "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scv7"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:onClick="onSnacksList7"
+            app:cardCornerRadius="10dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.example.shahwar.cafecoffeesquare.SnacksList"
+            tools:showIn="@layout/activity_coffee_list">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/snack_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/classicpotatofries"
+                    android:scaleType="centerCrop"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/snacktxt7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Classic Potato Fries "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scv8"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:onClick="onSnacksList8"
+            app:cardCornerRadius="10dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.example.shahwar.cafecoffeesquare.SnacksList"
+            tools:showIn="@layout/activity_coffee_list">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/snack_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/bananafries"
+                    android:scaleType="centerCrop"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/snacktxt8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Banana Fries"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scv9"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:onClick="onSnacksList9"
+            app:cardCornerRadius="10dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.example.shahwar.cafecoffeesquare.SnacksList"
+            tools:showIn="@layout/activity_coffee_list">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/snack_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/onion"
+                    android:scaleType="centerCrop"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/snacktxt9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Onion Fries "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scv10"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:onClick="onSnacksList10"
+            app:cardCornerRadius="10dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.example.shahwar.cafecoffeesquare.SnacksList"
+            tools:showIn="@layout/activity_coffee_list">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/snack_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/carrot"
+                    android:scaleType="centerCrop"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/snacktxt10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Carrot Fries"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
